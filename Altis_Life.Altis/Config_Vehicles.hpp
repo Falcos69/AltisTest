@@ -17,9 +17,7 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "C_SUV_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } },
-            { "C_Van_01_transport_F", { "", "", -1 } }
+            { "GeK_Golf", { "", "", -1 } },
         };
     };
 
@@ -695,3 +693,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 };
+
+    class GeK_Golf {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 1;
+        textures[] = {};
+    };
