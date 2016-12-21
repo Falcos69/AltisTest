@@ -17,7 +17,7 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
-            { "GeK_Golf_01", { "", "", -1 } },
+            { "GeK_Golf", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
