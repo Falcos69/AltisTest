@@ -697,7 +697,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 };
 
-    class GeK_Golf {
+    class GeK_Golf_01 {
         vItemSpace = 50;
         vFuelSpace = 50000;
         licenses[] = { {""}, {""}, {""}, {""} };
