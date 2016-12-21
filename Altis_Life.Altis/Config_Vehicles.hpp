@@ -696,7 +696,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class GeK_Golf {
         vItemSpace = 50;
-        licenses[] = { {""}, {""}, {""}, {""} };
+		vFuelSpace = 50000;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1;
         textures[] = {};
     };
