@@ -15,12 +15,19 @@ class CarShops {
     class civ_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_F", { "", "", -1 } },
-            { "GeK_Golf_01", { "", "", -1 } },
-            { "C_SUV_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } },
-            { "C_Van_01_transport_F", { "", "", -1 } }
+{ "B_Quadbike_01_F", { "", "", -1 } },
+{ "C_Hatchback_01_F", { "", "", -1 } },
+{ "C_SUV_01_F", { "", "", -1 } },
+{ "C_Hatchback_01_sport_F", { "", "", -1 } },
+{ "C_Van_01_transport_F", { "", "", -1 } }
+{ "GeK_Golf_01", { "", "", -1 } },
+{ "GeK_Golf_02", { "", "", -1 } },
+{ "GeK_Golf_03", { "", "", -1 } },
+{ "GeK_Golf_04", { "", "", -1 } },
+{ "GeK_Golf_05", { "", "", -1 } },
+{ "GeK_Golf_06", { "", "", -1 } },
+{ "GeK_Golf_07", { "", "", -1 } },
+{ "GeK_Golf_08", { "", "", -1 } },
         };
     };
 
@@ -699,9 +706,57 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class GeK_Golf_01 {
         vItemSpace = 50;
-        vFuelSpace = 50000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 1;
+        price = 37000;
         textures[] = {};
     };
+   
+    class GeK_Golf_02 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
+    };
+   
+    class GeK_Golf_03 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
+    };
+   
+    class GeK_Golf_04 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
+    };
+   
+    class GeK_Golf_05 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
+    };
+   
+    class GeK_Golf_06 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
+    };
+   
+    class GeK_Golf_07 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
+    };
+   
+    class GeK_Golf_08 {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 37000;
+        textures[] = {};
 };
+
