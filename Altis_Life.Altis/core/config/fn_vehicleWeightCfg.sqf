@@ -17,6 +17,3 @@ _weight = M_CONFIG(getNumber,"LifeCfgVehicles",_classNameLife,"vItemSpace");
 
 if (isNil "_weight") then {_weight = -1;};
 _weight;
-
-
-    case "GeK_Golf": {50}
