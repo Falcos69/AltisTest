@@ -17,7 +17,6 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "GeK_Golf", { "", "", -1 } },
         };
     };
 
@@ -693,10 +692,3 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-    class GeK_Golf {
-        vItemSpace = 50;
-		vFuelSpace = 50000;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 1;
-        textures[] = {};
-    };
